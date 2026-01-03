@@ -1,0 +1,39 @@
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: var(--primitive-spacing-small) var(--primitive-spacing-base);
+	border: none;
+	border-radius: var(--primitive-radius-base);
+	font-size: var(--primitive-font-size-base);
+	font-weight: var(--primitive-font-weight-regular);
+	font-family: "Inter", sans-serif;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.primary {
+	background-color: #cca4ff;
+	color: var(--primitive-color-grey-10);
+}
+
+.primary:hover {
+	background-color: #dfc7ff;
+}
+
+.primary:active {
+	background-color: #b98cef;
+}
+
+.secondary {
+	background-color: var(--primitive-color-grey-70);
+	color: var(--primitive-color-grey-10);
+}
+
+.secondary:hover {
+	background-color: var(--primitive-color-grey-50);
+}
+
+.secondary:active {
+	background-color: #a8a8a8;
+}

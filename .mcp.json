@@ -1,0 +1,24 @@
+{
+	"mcpServers": {
+		"figma": {
+			"command": "npx",
+			"args": ["-y", "@modelcontextprotocol/server-figma"],
+			"env": {
+				"FIGMA_PERSONAL_ACCESS_TOKEN": "FIGMA_ACCESS_TOKEN"
+			}
+		}
+	},
+	"rules": [
+		"You do not need to import React in each component file; assume it's globally available.",
+
+		"When creating a new component, always use design tokens for colors, font sizes, and spacing values.",
+
+		"View component designs in Figma using the provided links in figma.config.json.",
+
+		"Always ensure components are in a folder using Pascal Case naming conventions.",
+
+		"Folders should include the tsx file, a css module file, a jest test file if appropriate, and an index.ts file for exports.",
+
+		"Use the clsx library for conditional class names in React components."
+	]
+}
